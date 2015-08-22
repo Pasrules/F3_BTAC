@@ -544,6 +544,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addweapon _carbine;
 		_unit addweapon _MAT;
+		_unit addItem "rhs_acc_pgo7v";
 	};
 
 // LOADOUT: MEDIUM AT ASSISTANT GUNNER
