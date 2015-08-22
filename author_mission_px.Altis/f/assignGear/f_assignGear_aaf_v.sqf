@@ -30,6 +30,7 @@
 		_unit addItemCargoGlobal ["ACE_atropine",6];
 		_unit addItemCargoGlobal ["ACE_bloodIV_500",1];
 		_unit addItemCargoGlobal ["ACE_surgicalKit",2];
+		_unit addItemCargoGlobal ["ACE_personalAidKit",1];
 		_unit addItemCargoGlobal ["ACE_Bodybag",2];
 	};
 	
