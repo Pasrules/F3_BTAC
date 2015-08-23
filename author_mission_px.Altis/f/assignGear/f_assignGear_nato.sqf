@@ -141,10 +141,10 @@ _pistol = "rhsusf_weap_m1911a1";
 _pistolmag = "rhsusf_mag_7x45acp_MHP";
 
 // Grenades
-_grenade = "rhs_mag_m67";
-_Mgrenade = "rhs_mag_m67";
-_smokegrenade = "rhs_mag_an_m8hc";
-_smokegrenadegreen = "rhs_mag_m18_green";
+_grenade = "GrenadeHand";
+_Mgrenade = "mini_Grenade";
+_smokegrenade = "SmokeShell";
+_smokegrenadegreen = "SmokeShellGreen";
 
 // misc medical items.
 _firstaid = "FirstAidKit";
