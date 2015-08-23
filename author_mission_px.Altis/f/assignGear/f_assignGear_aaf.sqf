@@ -73,7 +73,7 @@ _bipod1 = "bipod_03_F_oli";		// Default bipod
 _bipod2 = "bipod_03_F_blk";		// Black bipod
 
 // Default setup
-_attachments = [_attach1,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
+_attachments = [_attach2,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
 
 // [] = remove all
 // [_attach1,_scope1,_silencer] = remove all, add items assigned in _attach1, _scope1 and _silencer1
@@ -182,14 +182,14 @@ _ARmag = "200Rnd_65x39_cased_Box";
 _ARmag_tr = "200Rnd_65x39_cased_Box_Tracer";
 
 // Medium MG
-_MMG = "MMG_01_tan_F";
-_MMGmag = "150Rnd_93x64_Mag";
-_MMGmag_tr = "150Rnd_93x64_Mag";
+//_MMG = "MMG_01_tan_F";
+//_MMGmag = "150Rnd_93x64_Mag";
+//_MMGmag_tr = "150Rnd_93x64_Mag";
 
 // NON-DLC ALTERNATIVE:
-//_MMG = "LMG_Zafir_F";
-//_MMGmag = ""150Rnd_762x54_Box"";
-//_MMGmag_tr = ""150Rnd_762x54_Box"_Tracer";
+_MMG = "LMG_Zafir_F";
+_MMGmag = "150Rnd_762x54_Box";
+_MMGmag_tr = "150Rnd_762x54_Box_Tracer";
 
 // Marksman rifle
 _DMrifle = "srifle_EBR_F";
@@ -218,9 +218,9 @@ _SNrifle = "srifle_GM6_F";
 _SNrifleMag = "5Rnd_127x108_Mag";
 
 // Engineer items
-_ATmine = "ATMine_Range_Mag";
+_ATmine = "SLAMDirectionalMine_Wire_Mag";
 _satchel = "DemoCharge_Remote_Mag";
-_APmine1 = "APERSBoundingMine_Range_Mag";
+_APmine1 = "ClaymoreDirectionalMine_Remote_Mag";
 _APmine2 = "APERSMine_Range_Mag";
 
 // ====================================================================================
@@ -314,14 +314,14 @@ if (_isMan) then {
 	// ADD UNIVERSAL ITEMS
 	// Add items universal to all units of this faction
 
-	_unit linkItem _nvg;			// Add and equip the faction's nvg
+	//_unit linkItem _nvg;			// Add and equip the faction's nvg
 	_unit addItem _firstaid;		// Add a single first aid kit (FAK)
 	_unit linkItem "ItemMap";		// Add and equip the map
 	_unit linkItem "ItemCompass";	// Add and equip a compass
 	_unit linkItem "ItemRadio";		// Add and equip A3's default radio
 	_unit linkItem "ItemWatch";		// Add and equip a watch
 	//_unit linkItem "ItemGPS"; 	// Add and equip a GPS
-
+	_unit addItem "rhs_googles_clear";
 };
 
 // ====================================================================================
@@ -358,6 +358,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_glmag,3];
 		_unit addmagazines [_glsmokewhite,4];
 		_unit addweapon _glrifle;					//_COrifle
+		_attachments = [_attach1,_scope2];
 		_unit addmagazines [_pistolmag,2];
 		_unit addweapon _pistol;
 		_unit addmagazines [_grenade,1];
@@ -377,6 +378,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_glmag,3];
 		_unit addmagazines [_glsmokewhite,4];
 		_unit addweapon _glrifle;					//_DCrifle
+		_attachments = [_attach1,_scope2];
 		_unit addmagazines [_pistolmag,2];
 		_unit addweapon _pistol;
 		_unit addmagazines [_grenade,1];
@@ -407,6 +409,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_glmag,5];
 		_unit addmagazines [_glsmokewhite,4];
 		_unit addweapon _glrifle;					//_FTLrifle
+		_attachments = [_attach1,_scope2];
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_mgrenade,1];
 		_unit addmagazines [_smokegrenade,2];
@@ -422,6 +425,7 @@ switch (_typeofUnit) do
 	{
 		_unit addmagazines [_ARmag,2];
 		_unit addweapon _AR;
+		_attachments = ["optic_Arco"];
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_mgrenade,1];
 		_unit addmagazines [_smokegrenade,2];
@@ -468,8 +472,10 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addmagazines [_pistolmag,3];
 		_unit addweapon _pistol;
+		_unit addWeapon "Rangefinder";
+		_unit linkItem _nvg;
 		["dm"] call _backpack;
-		_attachments = [_attach1,_scope2];
+		_attachments = [_attach1,"optic_Arco"];
 	};
 
 // LOADOUT: MEDIUM MG GUNNER
@@ -477,6 +483,7 @@ switch (_typeofUnit) do
 	{
 		_unit addmagazines [_MMGmag,1];
 		_unit addweapon _MMG;
+		_attachments = ["optic_Arco"];
 		_unit addmagazines [_MMGmag,2];
 		_unit addmagazines [_smokegrenade,2];
 		_unit addmagazines [_pistolmag,4];
@@ -663,7 +670,8 @@ switch (_typeofUnit) do
 		_unit addmagazines [_glsmokewhite,2];
 		_unit addweapon _glrifle;					//_COrifle
 		_unit addmagazines [_smokegrenade,2];
-		_unit addWeapon "Rangefinder";
+		_unit addWeapon "Laserdesignator_03";
+		_unit addItem "Laserbatteries";
 		_unit linkItem "ItemGPS";
 	};
 
@@ -682,7 +690,9 @@ switch (_typeofUnit) do
 	{
 		_unit addmagazines [_smgmag,5];
 		_unit addweapon _smg;
+		_attachments = [];
 		_unit addmagazines [_smokegrenade,2];
+		_unit addItem "Toolkit";
 		_unit linkItem "ItemGPS";
 		["cc"] call _backpack;
 	};
@@ -692,6 +702,7 @@ switch (_typeofUnit) do
 	{
 		_unit addmagazines [_smgmag,5];
 		_unit addweapon _smg;
+		_attachments = [];
 		_unit addmagazines [_smokegrenade,2];
 		_unit linkItem "ItemGPS";
 	};
@@ -710,6 +721,7 @@ switch (_typeofUnit) do
 	{
 		_unit addmagazines [_smgmag,5];
 		_unit addweapon _smg;
+		_attachments = [];
 		_unit addmagazines [_smokegrenade,2];
 		["cc"] call _backpack;
 	};
@@ -719,6 +731,7 @@ switch (_typeofUnit) do
 	{
 		_unit addmagazines [_smgmag,5];
 		_unit addweapon _smg;
+		_attachments = [];
 		_unit addmagazines [_smokegrenade,2];
 	};
 

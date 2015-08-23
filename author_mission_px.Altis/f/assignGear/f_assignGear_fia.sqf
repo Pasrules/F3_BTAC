@@ -136,10 +136,10 @@ _pistol = "rhs_weap_makarov_pmm";
 _pistolmag = "rhs_mag_9x18_12_57N181S";
 
 // Grenades
-_grenade = "GrenadeHand";
-_Mgrenade = "mini_Grenade";
+_grenade = "HandGrenade";
+_Mgrenade = "MiniGrenade";
 _smokegrenade = "SmokeShell";
-_smokegrenadegreen = "SmokeShellGreen";
+_smokegrenadegreen = "SmokeShellYellow";
 
 // misc medical items.
 _firstaid = "FirstAidKit";

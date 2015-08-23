@@ -136,10 +136,10 @@ _pistol = "hgun_Rook40_F";
 _pistolmag = "16Rnd_9x21_Mag";
 
 // Grenades
-_grenade = "GrenadeHand";
-_Mgrenade = "mini_Grenade";
+_grenade = "HandGrenade";
+_Mgrenade = "MiniGrenade";
 _smokegrenade = "SmokeShell";
-_smokegrenadegreen = "SmokeShellGreen";
+_smokegrenadegreen = "SmokeShellRed";
 
 // misc medical items.
 _firstaid = "FirstAidKit";
