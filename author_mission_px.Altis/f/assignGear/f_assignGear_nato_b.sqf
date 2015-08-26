@@ -330,10 +330,11 @@ case "matg":
 	};
 	// LOADOUT: MEDIUM
 	if (_loadout == 1) then {
-		_unit addBackpack _bagmedium;
+		_unit addBackpack _baglarge;
 		clearMagazineCargoGlobal (unitBackpack _unit);
 		(unitBackpack _unit) addMagazineCargoGlobal [_MATmag1, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_MATmag2, 1];
+		(unitBackpack _unit) addMagazineCargoGlobal ["tf47_smaw_SR", 3];
 		(unitBackpack _unit) addMagazineCargoGlobal [_carbinemag, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_grenade, 1];
 		(unitBackpack _unit) addMagazineCargoGlobal [_mgrenade, 1];
@@ -341,7 +342,7 @@ case "matg":
 	};
 	// LOADOUT: HEAVY
 	if (_loadout == 2) then {
-		_unit addBackpack _bagmedium;
+		_unit addBackpack _baglarge;
 		clearMagazineCargoGlobal (unitBackpack _unit);
 		(unitBackpack _unit) addMagazineCargoGlobal [_MATmag1, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_MATmag2, 2];
@@ -367,7 +368,7 @@ case "matag":
 	};
 	// LOADOUT: MEDIUM
 	if (_loadout == 1) then {
-		_unit addBackpack _bagmedium;
+		_unit addBackpack _baglarge;
 		clearMagazineCargoGlobal (unitBackpack _unit);
 		(unitBackpack _unit) addMagazineCargoGlobal [_MATmag1, 2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_MATmag2, 1];

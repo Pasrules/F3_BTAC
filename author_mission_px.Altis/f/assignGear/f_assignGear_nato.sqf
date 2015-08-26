@@ -165,7 +165,7 @@ _chemblue = "Chemlight_blue";
 // Backpacks
 _bagsmall = "rhsusf_assault_eagleaiii_ocp";			// carries 120, weighs 20
 _bagmedium = "rhsusf_assault_eagleaiii_ocp";				// carries 240, weighs 30
-_baglarge =  "rhsusf_assault_eagleaiii_ocp"; 			// carries 320, weighs 40
+_baglarge =  "B_Carryall_cbr"; 			// carries 320, weighs 40
 _bagmediumdiver =  "B_AssaultPack_blk";		// used by divers
 _baguav = "B_UAV_01_backpack_F";			// used by UAV operator
 _baghmgg = "RHS_M2_Gun_Bag";				// used by Heavy MG gunner
@@ -209,9 +209,9 @@ _RAT = "tf47_at4_HEDP";
 _RATmag = "tf47_at4_m_HEDP";
 
 // Medium AT
-_MAT = "tf47_m3maaws";
-_MATmag1 = "tf47_m3maaws_HEAT";
-_MATmag2 = "tf47_m3maaws_HEDP";
+_MAT = "tf47_smaw_green";
+_MATmag1 = "tf47_smaw_HEAA";
+_MATmag2 = "tf47_smaw_HEDP";
 
 // Surface Air
 _SAM = "rhs_weap_fim92";
@@ -563,7 +563,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addweapon _carbine;
 		_unit addweapon _MAT;
-		_unit additem "tf47_optic_m3maaws";
+		_unit additem "tf47_optic_smaw";
 	};
 
 // LOADOUT: MEDIUM AT ASSISTANT GUNNER

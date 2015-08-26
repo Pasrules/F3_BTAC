@@ -196,13 +196,13 @@ _DMrifle = "srifle_EBR_F";
 _DMriflemag = "20Rnd_762x51_Mag";
 
 // Rifleman AT
-_RAT = "launch_RPG32_F";
-_RATmag = "RPG32_F";
+_RAT = "launch_NLAW_F";
+_RATmag = "NLAW_F";
 
 // Medium AT
-_MAT = "launch_NLAW_F";
-_MATmag1 = "NLAW_F";
-_MATmag2 = "NLAW_F";
+_MAT = "tf47_m3maaws";
+_MATmag1 = "tf47_m3maaws_HEAT";
+_MATmag2 = "tf47_m3maaws_HEDP";
 
 // Surface Air
 _SAM = "launch_I_Titan_F";
@@ -539,6 +539,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addweapon _carbine;
 		_unit addweapon _MAT;
+		_unit additem "tf47_optic_m3maaws";
 	};
 
 // LOADOUT: MEDIUM AT ASSISTANT GUNNER
