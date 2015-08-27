@@ -379,9 +379,5 @@
 		_unit addMagazineCargoGlobal [_APmine1,4];
 		_unit addMagazineCargoGlobal [_APmine2,4];
 		_unit addMagazineCargoGlobal [_smgmag,12];
-		_unit addBackpackCargoGlobal [_baghmgag,1];
-		_unit addBackpackCargoGlobal [_baghatag,1];
-		_unit addBackpackCargoGlobal [_bagmtrag,1];
-		_unit addBackpackCargoGlobal [_baghsamag,1];
 		_unit addItemCargoGlobal ["ACE_SpareBarrel",4];
 	};
