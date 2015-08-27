@@ -40,10 +40,10 @@ if(_typeOfUnit != "NIL") then {
 
 
       // Set the list of units that get a rifleman's radio
-      _rifradio = ["ar","aar","rat","samag","mmgag","hmgag","matag","hatag","mtrag","sp","r","car","smg","gren"];
+      _rifradio = ["ar","aar","rat","dm","mmg","matg","hmgg","hatg","mtrg","msamg","hsamg","vg","vd","pcc","pc","r","car","smg","gren"];
 
       // Set the list of units that get a shortrange radio
-      _shortrange = ["co", "dc", "ftl", "m", "samg", "mmgg", "matg", "sn", "mtrg"];
+      _shortrange = ["co", "dc", "ftl", "m","mmgag","matag","hmgag","hatag","mtrag","msamag","hsamag","sn","sp"];
 
       // Give out respective radios
 
@@ -56,7 +56,7 @@ if(_typeOfUnit != "NIL") then {
       };
 
       // Special cases
-      _specialist = ["vc", "pp", "eng", "engm", "div","uav"];
+      _specialist = ["vc", "pp", "jp", "eng", "engm", "div","uav"];
 
       // If unit is leader of group and in the above list, give SR. Else, give them
       // a rifleman's radio.
