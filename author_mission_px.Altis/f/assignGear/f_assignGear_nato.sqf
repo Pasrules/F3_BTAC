@@ -411,7 +411,7 @@ switch (_typeofUnit) do
 	    _unit addVest "rhsusf_iotv_ocp_Medic";
 		_unit addmagazines [_carbinemag,7];
 		_unit addweapon _carbine;
-		_unit addmagazines [_smokegrenade,4];
+		_unit addmagazines [_smokegrenade,6];
 		{_unit addItem _firstaid} forEach [1,2,3,4];
 		_unit linkItem "ItemGPS";
 		["m"] call _backpack;

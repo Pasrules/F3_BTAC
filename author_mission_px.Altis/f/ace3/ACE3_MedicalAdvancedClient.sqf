@@ -28,10 +28,11 @@ if (_typeOfUnit == "m") then
         (unitBackpack player) addItemCargoGlobal ["ACE_morphine", 8];
         (unitBackpack player) addItemCargoGlobal ["ACE_epinephrine", 8];
 
-        (unitBackpack player) addItemCargoGlobal ["ACE_salineIV_250", 6];
+        (unitBackpack player) addItemCargoGlobal ["ACE_salineIV_500", 4];
 		
         (unitBackpack player) addItemCargoGlobal ["ACE_tourniquet", 3];
-		(unitBackPack player) addItemCargoGlobal ["ACE_surgicalKit", 1];
+		(unitBackPack player) addItemCargoGlobal ["ACE_surgicalKit", 2];
+		(unitBackPack player) addItemCargoGlobal ["ACE_personalAidKit", 1];
     };
     // BACKPACK: HEAVY
     if (f_param_backpacks == 2) then {
@@ -43,9 +44,10 @@ if (_typeOfUnit == "m") then
         (unitBackpack player) addItemCargoGlobal ["ACE_morphine", 12];
         (unitBackpack player) addItemCargoGlobal ["ACE_epinephrine", 12];
 
-        (unitBackpack player) addItemCargoGlobal ["ACE_salineIV_250", 8];
+        (unitBackpack player) addItemCargoGlobal ["ACE_salineIV_500", 6];
 		
         (unitBackpack player) addItemCargoGlobal ["ACE_tourniquet", 5];
-		(unitBackPack player) addItemCargoGlobal ["ACE_surgicalKit", 2];
+		(unitBackPack player) addItemCargoGlobal ["ACE_surgicalKit", 3];
+		(unitBackPack player) addItemCargoGlobal ["ACE_personalAidKit", 1];
     };
 }; 
