@@ -22,13 +22,13 @@ if (ace_hearing_EnableCombatDeafness) then
 };
 
 // ACE Maptools & CableTies
-if (_typeOfUnit in ["co", "dc", "m", "mmgag", "hmgag", "matag", "hatag", "mtrag", "mtrg", "msamag","sp", "vc", "pp", "uav"]) then {
+if (_typeOfUnit in ["co", "dc", "m", "mmgag", "hmgag", "matag", "hatag", "mtrag", "mtrg", "msamag", "sp", "sn", "vc", "pp", "uav"]) then {
     player addItem "ACE_Maptools";
 	for "_i" from 1 to 3 do {player addItem "ACE_CableTie"};
 };
 
 // ACE Kestrel
-if (_typeOfUnit in ["sn", "sp"]) then {
+if (_typeOfUnit in ["sn", "sp", "mtrag"]) then {
     player addItem "ACE_Kestrel";
 };
 
