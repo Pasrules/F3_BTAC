@@ -15,20 +15,6 @@ _cre = player createDiaryRecord ["diary", ["Credits","
 <br/><br/>
 Made with F3 (http://www.ferstaberinde.com/f3/en/)
 "]];
-// ====================================================================================
-
-// NOTES: COMMAND & SIGNALS
-// The code below creates the command & signals sub-section of notes.
-//Command and signals lets everyone know who the boss is and who their immediate superiors are. As well as the radio frequencies and callsigns for the different command levels. Everyone is given this so that if the FTL/SL go down, the next in line has the means to contact higher command.
-
-_adm = player createDiaryRecord ["diary", ["Command and Signals","
-<br/>
-*** Insert information on command and signals here. e.g. 
-“Crossroad” SL is Spanie. Command channel is SR Ch:8 Freq:108 and LR Ch:1 Freq:50
-“Alpha 1” SR Channel 1, Freq: 101.
-“Alpha 2” SR Channel 2, Freq: 102.
-“Dark Rain” Mortar team SR Channel 3, Freq: 103.***
-"]];
 
 // ====================================================================================
 
