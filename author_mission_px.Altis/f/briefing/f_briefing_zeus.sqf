@@ -15,30 +15,27 @@ _cre = player createDiaryRecord ["diary", ["Credits","
 <br/><br/>
 Made with F3 (http://www.ferstaberinde.com/f3/en/)
 "]];
+
 // ====================================================================================
 
-// NOTES: COMMAND & SIGNALS
-// The code below creates the command & signals sub-section of notes.
+// NOTES: ADMINISTRATION & LOGISTICS AND COMMAND & SIGNALS
+// The code below creates the administration & logistics and command & signals sub-section of notes.
+//Admin & Log IRL means what supplies you should take or are available for the mission like ammo, medical, batteries, radios, and other things like timings, etc . As we use the framework to kit everyone out and we are usually jumping straight in Admin can cover other aspects. This can include vehicles and support weapons available for the mission, or how you will be travelling to the mission AO (e.g. via Helo, Paradrop, vehicle, or on foot.) You can also include Casevac and Reinforcement plans here, for instance, how to get casualties (players alive but heavily wounded where they are no longer effective) out of the AO and how reinforcements (JIPs) will be delivered to the AO.
 //Command and signals lets everyone know who the boss is and who their immediate superiors are. As well as the radio frequencies and callsigns for the different command levels. Everyone is given this so that if the FTL/SL go down, the next in line has the means to contact higher command.
 
-_adm = player createDiaryRecord ["diary", ["Command and Signals","
+_adm = player createDiaryRecord ["diary", ["Administration and Command","
 <br/>
-*** Insert information on administration and logistics here. e.g. 
-“Crossroad” SL is Spanie. Command channel is SR Ch:8 Freq:108 and LR Ch:1 Freq:50
-“Alpha 1” SR Channel 1, Freq: 101.
-“Alpha 2” SR Channel 2, Freq: 102.
-“Dark Rain” Mortar team SR Channel 3, Freq: 103.***
-"]];
-
-// ====================================================================================
-
-// NOTES: ADMINISTRATION & LOGISTICS
-// The code below creates the administration & logistics sub-section of notes.
-//Admin & Log IRL means what supplies you should take or are available for the mission like ammo, medical, batteries, radios, and other things like timings, etc . As we use the framework to kit everyone out and we are usually jumping straight in Admin can cover other aspects. This can include vehicles and support weapons available for the mission, or how you will be travelling to the mission AO (e.g. via Helo, Paradrop, vehicle, or on foot.) You can also include Casevac and Reinforcement plans here, for instance, how to get casualties (players alive but heavily wounded where they are no longer effective) out of the AO and how reinforcements (JIPs) will be delivered to the AO.
-
-_adm = player createDiaryRecord ["diary", ["Administration and Logistics","
+<font size='18'>ADMINISTRATION & LOGISTICS</font>
 <br/>
 *** Insert information on administration and logistics here. e.g. Borderline Tactical will have an IFV and Mortars available for the mission. Travel to the AO will be via IFV and/or on foot as the situation dictates. Casualties will be loaded into the IFV and returned to the northern front when the situation allows. Reinforcements will be inserted on foot.***
+<br/><br/>
+<font size='18'>COMMAND & SIGNALS</font>
+<br/>
+*** Insert information on command and signals here. e.g. <br/>
+“Crossroad” SL is Spanie. Command channel is SR Ch:8 Freq:108 and LR Ch:1 Freq:50<br/>
+“Alpha 1” SR Channel 1, Freq: 101.<br/>
+“Alpha 2” SR Channel 2, Freq: 102.<br/>
+“Dark Rain” Mortar team SR Channel 3, Freq: 103.***
 "]];
 
 // ====================================================================================
@@ -78,9 +75,9 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 
 _mis = player createDiaryRecord ["diary", ["Mission","
 <br/>
-*** Insert the mission here. e.g. 
-Borderline Tactical is to Secure and Extract the Civilians then Overthow any remaining rebel resistance.
-“I say again”
+*** Insert the mission here. e.g. <br/>
+Borderline Tactical is to Secure and Extract the Civilians then Overthow any remaining rebel resistance.<br/>
+“I say again”<br/>
 Borderline Tactical is to Secure and Extract the Civilians then Overthow any remaining rebel resistance.***
 "]];
 
