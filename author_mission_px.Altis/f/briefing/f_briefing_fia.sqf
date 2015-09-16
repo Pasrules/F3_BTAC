@@ -21,7 +21,9 @@ Made with F3 (http://www.ferstaberinde.com/f3/en/)
 // NOTES: ADMINISTRATION
 // The code below creates the administration sub-section of notes.
 
-_adm = player createDiaryRecord ["diary", ["Administration","
+_adm = player createDiaryRecord ["diary", ["Administration and Logistics","
+<br/>
+<font size='18'>ADMINISTRATION & LOGISTICS</font>
 <br/>
 *** Insert information on administration and logistics here. ***
 "]];
@@ -37,9 +39,13 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 <br/>
 *** Insert very short summary of plan here. ***
 <br/><br/>
-<font size='18'>MOVEMENT PLAN</font>
+<font size='18'>CONCEPT OF OPERATION</font>
 <br/>
 *** Insert movement instructions here. ***
+<br/><br/>
+<font size='18'>RULES OF ENGAGEMENT</font>
+<br/>
+*** Insert ROE here. ***
 <br/><br/>
 <font size='18'>FIRE SUPPORT PLAN</font>
 <br/>
@@ -76,6 +82,10 @@ _sit = player createDiaryRecord ["diary", ["Situation","
 <font size='18'>FRIENDLY FORCES</font>
 <br/>
 *** Insert information about friendly forces here.***
+<br/><br/>
+<font size='18'>CIVILIANS</font>
+<br/>
+*** Insert information about civilians here.***
 "]];
 
 // ====================================================================================
