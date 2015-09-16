@@ -62,6 +62,7 @@ class Mission
 		"MELB",
 		"ace_medical",
 		"ace_mk6mortar",
+		"mcc_sandbox"
 	};
 	addOnsAuto[]=
 	{
@@ -102,6 +103,7 @@ class Mission
 		"A3_Air_F_Heli_Heli_Light_01",
 		"a3_air_f_heli_light_01",
 		"MELB",
+		"mcc_sandbox",
 		"a3_map_altis"
 	};
 	randomSeed=11823142;
@@ -8002,7 +8004,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=95;
+		items=99;
 		class Item0
 		{
 			position[]={14671.188,17.91,16668.344};
@@ -8984,6 +8986,38 @@ class Mission
 			skill=0.60000002;
 			text="VehFIA_CAR4";
 			init="[""v_med"",this,""blu_g_f""] call f_fnc_assignGear";
+		};
+		class Item95
+		{
+			position[]={14647.898,17.91,16762.342};
+			id=582;
+			side="EMPTY";
+			vehicle="MCC_crateSupply";
+			skill=0.60000002;
+		};
+		class Item96
+		{
+			position[]={12594.294,29.000151,18127.354};
+			id=583;
+			side="EMPTY";
+			vehicle="MCC_crateSupply";
+			skill=0.60000002;
+		};
+		class Item97
+		{
+			position[]={15414.43,18.484375,17130.545};
+			id=584;
+			side="EMPTY";
+			vehicle="MCC_crateSupply";
+			skill=0.60000002;
+		};
+		class Item98
+		{
+			position[]={17017.059,13.113879,15617.917};
+			id=585;
+			side="EMPTY";
+			vehicle="MCC_crateSupply";
+			skill=0.60000002;
 		};
 	};
 };
