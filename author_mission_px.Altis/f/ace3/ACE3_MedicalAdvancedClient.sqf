@@ -14,6 +14,7 @@ _typeOfUnit = player getVariable "f_var_assignGear";
 
 {player addItem "ACE_quikclot"} forEach [1,2,3,4,5];
 {player addItem "ACE_morphine"} forEach [1];
+{player addItem "ACE_epinephrine"} forEach [1];
 {player addItem "ACE_tourniquet"} forEach [1];
 
 if (_typeOfUnit == "m") then
