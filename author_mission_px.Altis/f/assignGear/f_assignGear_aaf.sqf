@@ -322,6 +322,7 @@ if (_isMan) then {
 	_unit linkItem "ItemWatch";		// Add and equip a watch
 	//_unit linkItem "ItemGPS"; 	// Add and equip a GPS
 	_unit addItem "rhs_googles_clear";
+	_unit addItem _chemyellow;
 };
 
 // ====================================================================================
