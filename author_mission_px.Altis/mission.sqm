@@ -8913,7 +8913,7 @@ class Mission
 			vehicle="rhsusf_m998_w_s_2dr_halftop";
 			skill=0.60000002;
 			text="VehNato_CAR3";
-			init="[""v_med"",this,""blu_f""] call f_fnc_assignGear";
+			init="[""v_medic"",this,""blu_f""] call f_fnc_assignGear";
 		};
 		class Item88
 		{
@@ -8953,7 +8953,7 @@ class Mission
 			vehicle="I_MRAP_03_F";
 			skill=0.60000002;
 			text="VehAAF_CAR3";
-			init="[""v_med"",this] call f_fnc_assignGear";
+			init="[""v_medic"",this] call f_fnc_assignGear";
 		};
 		class Item92
 		{
@@ -8975,7 +8975,7 @@ class Mission
 			vehicle="rhs_tigr_msv";
 			skill=0.60000002;
 			text="VehCSAT_CAR3";
-			init="[""v_med"",this,""opf_f""] call f_fnc_assignGear";
+			init="[""v_medic"",this,""opf_f""] call f_fnc_assignGear";
 		};
 		class Item94
 		{
@@ -8985,7 +8985,7 @@ class Mission
 			vehicle="B_G_Offroad_01_F";
 			skill=0.60000002;
 			text="VehFIA_CAR4";
-			init="[""v_med"",this,""blu_g_f""] call f_fnc_assignGear";
+			init="[""v_medic"",this,""blu_g_f""] call f_fnc_assignGear";
 		};
 		class Item95
 		{
