@@ -1,4 +1,4 @@
-//Vehicle & Box LOADOUTS - NATO
+//Vehicle & Box LOADOUTS - AAF
 
 // CARGO: CAR - room for 10 weapons and 50 cargo items
 	case "v_car":
@@ -21,6 +21,7 @@
 		//_unit addMagazineCargoGlobal [_glmag,12];
 		_unit addMagazineCargoGlobal [_chemgreen,4];
 		_unit addBackpackCargoGlobal [_bagmedium,1];
+		_unit addItemCargoGlobal ["Toolkit"];
 		_unit addItemCargoGlobal ["ACE_HandFlare_Yellow",2];
 		_unit addItemCargoGlobal ["ACE_IR_Strobe_Item",2];
 		_unit addItemCargoGlobal ["ACE_quickclot",20];
@@ -35,7 +36,7 @@
 	};
 	
 // Medical: CAR
-    case "v_med":
+    case "v_medic":
 	{
 	    clearWeaponCargoGlobal _unit;
 		clearMagazineCargoGlobal _unit;
@@ -44,6 +45,7 @@
 		_unit addMagazineCargoGlobal [_smokegrenade,4];
 		_unit addMagazineCargoGlobal [_smokegrenadegreen,2];
 		_unit addMagazineCargoGlobal [_chemgreen,4];
+		_unit addItemCargoGlobal ["Toolkit"];
 	    _unit addItemCargoGlobal ["ACE_HandFlare_Yellow",2];
 		_unit addItemCargoGlobal ["ACE_IR_Strobe_Item",2];
 		_unit addItemCargoGlobal ["ACE_fieldDressing",60];
@@ -81,6 +83,7 @@
 		//_unit addMagazineCargoGlobal [_glsmokewhite,12];
 		_unit addMagazineCargoGlobal [_chemgreen,4];
 		_unit addBackpackCargoGlobal [_bagmedium,4];
+		_unit addItemCargoGlobal ["Toolkit"];
 		_unit addItemCargoGlobal ["ACE_HandFlare_Yellow",2];
 		_unit addItemCargoGlobal ["ACE_IR_Strobe_Item",2];
 		_unit addItemCargoGlobal ["ACE_quickclot",80];
@@ -115,6 +118,7 @@
 		//_unit addMagazineCargoGlobal [_glmag, 8];
 		//_unit addMagazineCargoGlobal [_glsmokewhite,4];
 		_unit addMagazineCargoGlobal [_chemgreen,4];
+		_unit addItemCargoGlobal ["Toolkit"];
 		_unit addItemCargoGlobal ["ACE_HandFlare_Yellow",2];
 		_unit addItemCargoGlobal ["ACE_IR_Strobe_Item",2];
 		_unit addItemCargoGlobal ["ACE_quickclot",10];
@@ -134,6 +138,7 @@
 		_unit addMagazineCargoGlobal [_smokegrenade,4];
 		_unit addMagazineCargoGlobal [_smokegrenadegreen,2];
 		_unit addMagazineCargoGlobal [_chemgreen,4];
+		_unit addItemCargoGlobal ["Toolkit"];
 		_unit addItemCargoGlobal ["ACE_HandFlare_Yellow",2];
 		_unit addItemCargoGlobal ["ACE_IR_Strobe_Item",2];
 		_unit addItemCargoGlobal ["ACE_quickclot",10];
@@ -155,6 +160,7 @@
 	    _unit addMagazineCargoGlobal [_smokegrenadegreen,2];
 	    _unit addMagazineCargoGlobal [_chemgreen,4];
 	    _unit addBackpackCargoGlobal ["B_Parachute",2];
+		_unit addItemCargoGlobal ["Toolkit"];
 		_unit addItemCargoGlobal ["ACE_HandFlare_Yellow",2];
 		_unit addItemCargoGlobal ["ACE_IR_Strobe_Item",2];
 		_unit addItemCargoGlobal ["ACE_quickclot",20];
@@ -190,6 +196,7 @@
 		_unit addMagazineCargoGlobal [_chemgreen,4];
 		_unit addBackpackCargoGlobal [_bagmedium,2];
 		_unit addBackpackCargoGlobal ["B_Parachute",2];
+		_unit addItemCargoGlobal ["Toolkit"];
 		_unit addItemCargoGlobal ["ACE_HandFlare_Yellow",2];
 		_unit addItemCargoGlobal ["ACE_IR_Strobe_Item",2];
 		_unit addItemCargoGlobal ["ACE_quickclot",40];
@@ -226,6 +233,7 @@
 		_unit addMagazineCargoGlobal [_chemgreen,4];
 		_unit addBackpackCargoGlobal [_bagmedium,4];
 		_unit addBackpackCargoGlobal ["B_Parachute",4];
+		_unit addItemCargoGlobal ["Toolkit"];
 		_unit addItemCargoGlobal ["ACE_HandFlare_Yellow",2];
 		_unit addItemCargoGlobal ["ACE_IR_Strobe_Item",2];
 		_unit addItemCargoGlobal ["ACE_quickclot",80];
@@ -379,5 +387,6 @@
 		_unit addMagazineCargoGlobal [_APmine1,4];
 		_unit addMagazineCargoGlobal [_APmine2,4];
 		_unit addMagazineCargoGlobal [_smgmag,12];
+		_unit addItemCargoGlobal ["Toolkit"];
 		_unit addItemCargoGlobal ["ACE_SpareBarrel",4];
 	};
