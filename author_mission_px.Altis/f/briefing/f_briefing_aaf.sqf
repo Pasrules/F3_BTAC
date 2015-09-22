@@ -21,9 +21,9 @@ Made with F3 (http://www.ferstaberinde.com/f3/en/)
 // NOTES: ADMINISTRATION
 // The code below creates the administration sub-section of notes.
 
-_adm = player createDiaryRecord ["diary", ["Administration and Logistics","
+_adm = player createDiaryRecord ["diary", ["Administration","
 <br/>
-<font size='18'>ADMINISTRATION & LOGISTICS</font>
+<font size='18'>ADMINISTRATION and LOGISTICS</font>
 <br/>
 *** Insert information on administration and logistics here. ***
 "]];
