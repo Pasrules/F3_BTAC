@@ -7901,7 +7901,7 @@ class Mission
 						};
 						class Item11
 						{
-							value="0";
+							value="1";
 							parentCls="ACE_moduleAdvancedMedicalSettings";
 							typeName="healHitPointAfterAdvBandage";
 						};
