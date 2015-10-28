@@ -8,6 +8,7 @@
 // Defined loadouts:
 //		co			- commander
 //		dc 			- deputy commander / squad leader
+//      op          - radio operator
 //		m 			- medic
 //		ftl			- fire team leader
 //		ar 			- automatic rifleman
@@ -401,6 +402,20 @@ switch (_typeofUnit) do
 		["g"] call _backpack;
 	};
 
+// LOADOUT: RADIO OPERATOR
+    case "op":
+	{
+	    _unit addmagazines [_riflemag,7];
+		_unit addmagazines [_riflemag_tr,2];
+		_unit addweapon _rifle;
+		_unit addmagazines [_smokegrenade,2];
+		_unit addMagazines [_smokegrenadegreen,2];
+		_unit addMagazines [_smokegrenadered,2];
+		_unit addWeapon "Laserdesignator";
+		_unit addItem "Laserbatteries";
+		_unit linkItem "ItemGPS";
+	};	
+	
 // LOADOUT: MEDIC
 	case "m":
 	{
