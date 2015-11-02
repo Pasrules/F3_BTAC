@@ -21,6 +21,7 @@ KitPickInit =
     _idx = COMBO lbAdd "Rifleman (AT)"; COMBO lbSetData [_idx, "rat"];
     COMBO lbAdd "----";
 
+	_idx = COMBO lbAdd "Medic"; COMBO lbSetData [_idx, "m"];
     _idx = COMBO lbAdd "Engineer (no repair)"; COMBO lbSetData [_idx, "eng"];
     COMBO lbAdd "----";
 	
