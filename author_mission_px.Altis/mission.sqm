@@ -117,7 +117,7 @@ class Mission
 	randomSeed=11823142;
 	class Intel
 	{
-		briefingName="author_mission_px.Altis";
+		briefingName="author_mission_px";
 		overviewText="*** Insert mission description here. ***";
 		resistanceWest=0;
 		startWeather=0.84999996;
