@@ -13,7 +13,7 @@
 		_unit addMagazineCargoGlobal [_glriflemag,5];
 		_unit addMagazineCargoGlobal [_carbinemag,5];
 		_unit addMagazineCargoGlobal [_armag,3];
-		//_unit addMagazineCargoGlobal [_ratmag,1];
+		_unit addMagazineCargoGlobal [_ratmag,1];
 		//_unit addMagazineCargoGlobal [_grenade,4];
 		//_unit addmagazineCargoGlobal [_mgrenade,4];
 		_unit addMagazineCargoGlobal [_smokegrenade,4];
@@ -74,7 +74,7 @@
 		_unit addMagazineCargoGlobal [_glriflemag,20];
 		_unit addMagazineCargoGlobal [_carbinemag,20];
 		_unit addMagazineCargoGlobal [_armag,12];
-		//_unit addMagazineCargoGlobal [_ratmag,6];
+		_unit addMagazineCargoGlobal [_ratmag,2];
 		//_unit addMagazineCargoGlobal [_grenade,12];
 		//_unit addmagazineCargoGlobal [_mgrenade,12];
 		_unit addMagazineCargoGlobal [_smokegrenade,12];
@@ -110,7 +110,7 @@
 		//_unit addMagazineCargoGlobal [_glriflemag,20];
 		_unit addMagazineCargoGlobal [_carbinemag,15];
 		//_unit addMagazineCargoGlobal [_armag,8];
-		//_unit addMagazineCargoGlobal [_ratmag,2];
+		_unit addMagazineCargoGlobal [_ratmag,2];
 		//_unit addMagazineCargoGlobal [_grenade,8];
 		//_unit addmagazineCargoGlobal [_mgrenade,8];
 		_unit addMagazineCargoGlobal [_smokegrenade,4];
@@ -187,7 +187,7 @@
 		_unit addMagazineCargoGlobal [_glriflemag,10];
 		_unit addMagazineCargoGlobal [_carbinemag,10];
 		_unit addMagazineCargoGlobal [_armag,6];
-		//_unit addMagazineCargoGlobal [_ratmag,1];
+		_unit addMagazineCargoGlobal [_ratmag,1];
 		//_unit addMagazineCargoGlobal [_grenade,4];
 		//_unit addmagazineCargoGlobal [_mgrenade,4];
 		_unit addMagazineCargoGlobal [_smokegrenade,8];
@@ -223,7 +223,7 @@
 		_unit addMagazineCargoGlobal [_glriflemag,20];
 		_unit addMagazineCargoGlobal [_carbinemag,20];
 		_unit addMagazineCargoGlobal [_armag,12];
-		//_unit addMagazineCargoGlobal [_ratmag,6];
+		_unit addMagazineCargoGlobal [_ratmag,2];
 		//_unit addMagazineCargoGlobal [_grenade,12];
 		//_unit addmagazineCargoGlobal [_mgrenade,12];
 		_unit addMagazineCargoGlobal [_smokegrenade,12];
